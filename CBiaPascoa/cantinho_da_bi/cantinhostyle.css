@@ -2,24 +2,23 @@
     margin: 0;
 }
 body {
-    background-color:#ef97a3;
+    background-color:#a1694c;
 }
 header {
     width: 100%;
-    height: 260px;
-    background-color: #d4486f;
+    height: 600px;
+    background-image: url('./image/banner.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
 }
-#logo {
-    margin-top: 10px;
-    width: 200px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
+
 #nav {
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
    
 }
 a {
@@ -45,6 +44,7 @@ a {
 .carousel {
     position: relative;
     width: 100%;
+    height: 400px;
     margin: auto;
     overflow: hidden;
   }
@@ -56,8 +56,8 @@ a {
   }
   
   .carousel-inner img {
-    width: 280px;
-    height: 280PX;
+    width: 400px;
+    height: 400PX;
   }
   
   .prev, .next {
@@ -151,19 +151,18 @@ h3 {
     margin-bottom: 40px;
 }
 .pedidoCategoria{
-    background-color: #d4486f;
+    background-color: #a1694c;
     width: 100%;
 }
 .separador {
     margin-top: 20px;
     width: 80%;
     margin-left: 10%;
-    height: 30px;
+    height: 40px;
     border: none;
     border-radius: 5px;
     font-size: 15px;
     font-weight: 600;
-    box-shadow: 5px 5px 10px rgba(189, 20, 133, 0.815);
     cursor: pointer;    
 }
 #kit, #chocolateBranco, #aoLeite, #colher, #trufado {
@@ -172,7 +171,7 @@ h3 {
     margin-left: 10%;
     height: auto;
     border-radius: 0px 0px 10px 10px;
-    background-color: #ef97a391;
+    background-color: #dd7c4391;
     backdrop-filter: blur(5px);
     text-align: center;
 }
@@ -210,7 +209,7 @@ h3 {
     display: none;
 }
 #pedidosContainer #divOvoColher{
-    color:#d4486f;
+    color:#c5b78a;
 }
 #CbiaPascoa {
     text-align: center;
@@ -237,10 +236,9 @@ h3 {
 .envio {
     width: 80%;
     margin-left: 10%;
-    height: 30px;
+    height: 40px;
     border: none;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(189, 20, 133, 0.815);
 }
 #finalizar {
     margin-top: 30px;
@@ -250,11 +248,10 @@ h3 {
     height: 30px;
     border: none;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(189, 20, 133, 0.815);
     cursor: pointer;
 }
 footer {
-    background-color: #d4486f;
+    background-color: #a1694c;
     color: #fff;
     padding: 20px 0;
     text-align: center;
